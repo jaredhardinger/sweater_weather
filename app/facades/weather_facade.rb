@@ -4,7 +4,7 @@ class WeatherFacade
     current = current_weather(weather_data)
     daily = daily_weather(weather_data)
     hourly = hourly_weather(weather_data)
-    Weather.new(current, daily, hourly)
+    Forecast.new(current, daily, hourly)
   end
   
   def self.current_weather(data)
@@ -12,13 +12,13 @@ class WeatherFacade
   end
 
   def self.daily_weather(data)
-    data[:daily][0..4].each do |day|
+    data[:daily][0..4].map do |day|
       DailyWeather.new(day)
     end
   end
 
   def self.hourly_weather(data)
-    data[:hourly][0..7].each do |hour|
+    data[:hourly][0..7].map do |hour|
       HourlyWeather.new(hour)
     end
   end

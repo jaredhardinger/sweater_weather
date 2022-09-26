@@ -12,6 +12,6 @@ RSpec.describe 'Weather Facade' do
 		lon = "-82.32" 
     result = WeatherFacade.weather(lat, lon)
 
-    expect(result).to be_a(Weather)
+    expect(result).to be_a(Forecast)
   end
 end
