@@ -3,6 +3,6 @@ class Location
 
   def initialize(coordinates)
     @lat = coordinates[:lat]
-    @lon = coordinates[:lon]
+    @lon = coordinates[:lng]
   end
 end
