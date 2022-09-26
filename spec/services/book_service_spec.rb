@@ -12,8 +12,8 @@ RSpec.describe 'Book (OpenLibrary) API Service' do
     location = 'manistee,mi'
 		response = BookService.get_books(location)
 		expect(response).to be_a Hash
-    binding.pry
     expect(response).to have_key(:docs)
+    expect(response).to have_key(:num_found)
     expect(response[:docs].count).to eq(5)
     book1 = response[:docs][0]
     expect(book1).to have_key(:title)
