@@ -21,7 +21,7 @@ gem 'puma', '~> 5.0'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
-
+gem 'webmock'
 gem 'figaro'
 gem 'jsonapi-serializer'
 gem 'faraday'
@@ -37,13 +37,14 @@ group :development, :test do
   gem 'pry'
   gem 'rspec-rails'
   gem 'json'  
+  gem 'simplecov'
+  gem 'shoulda-matchers'
+  gem 'capybara'
 end
 
 group :development do
   gem 'listen', '~> 3.3'
-  gem 'simplecov'
-  gem 'shoulda-matchers'
-  gem 'capybara'
+
   gem 'launchy'
 end
 
