@@ -1,0 +1,55 @@
+{
+  "info": {
+    "statuscode": 0,
+    "copyright": {
+      "text": "© 2022 MapQuest, Inc.",
+      "imageUrl": "http://api.mqcdn.com/res/mqlogo.gif",
+      "imageAltText": "© 2022 MapQuest, Inc."
+    },
+    "messages": []
+  },
+  "options": {
+    "maxResults": -1,
+    "thumbMaps": true,
+    "ignoreLatLngInput": false
+  },
+  "results": [
+    {
+      "providedLocation": {
+        "location": "manistee,mi"
+      },
+      "locations": [
+        {
+          "street": "",
+          "adminArea6": "",
+          "adminArea6Type": "Neighborhood",
+          "adminArea5": "Manistee",
+          "adminArea5Type": "City",
+          "adminArea4": "Manistee County",
+          "adminArea4Type": "County",
+          "adminArea3": "MI",
+          "adminArea3Type": "State",
+          "adminArea1": "US",
+          "adminArea1Type": "Country",
+          "postalCode": "",
+          "geocodeQualityCode": "A5XAX",
+          "geocodeQuality": "CITY",
+          "dragPoint": false,
+          "sideOfStreet": "N",
+          "linkId": "282029982",
+          "unknownInput": "",
+          "type": "s",
+          "latLng": {
+            "lat": 44.245812,
+            "lng": -86.319545
+          },
+          "displayLatLng": {
+            "lat": 44.245812,
+            "lng": -86.319545
+          },
+          "mapUrl": "http://www.mapquestapi.com/staticmap/v5/map?key=nmk7wvUsOZJJZAg4FUc6fpALQhbniCMe&type=map&size=225,160&locations=44.245812,-86.319545|marker-sm-50318A-1&scalebar=true&zoom=12&rand=-1229867473"
+        }
+      ]
+    }
+  ]
+}
