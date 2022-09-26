@@ -1,6 +1,6 @@
 class LocationService
   def self.get_coordinates(query)
-    response = conn.get('/geocoding/v1/address') do |req|
+    response = conn.get('/geocoding/v1/address?') do |req|
       req.params['location'] = query
       req.params['key'] = ENV['mapquest_api_key']
     end
@@ -13,6 +13,6 @@ class LocationService
 
   private
   def self.conn
-    Faraday.new(url: 'http://www.mapquestapi.com/geocoding/v1/address')
+    Faraday.new(url: 'http://www.mapquestapi.com')
   end
 end
