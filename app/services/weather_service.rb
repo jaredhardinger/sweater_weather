@@ -1,5 +1,5 @@
-class ForecastService
-  def self.get_forecast(lat, lon)
+class WeatherService
+  def self.get_weather(lat, lon)
     response = conn.get('/data/2.5/onecall?') do |req|
       req.params['lat'] = lat
       req.params['lon'] = lon

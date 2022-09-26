@@ -9,7 +9,7 @@ RSpec.describe "Mapquest API Service" do
 	
 	it 'gets a response with the correct attributes' do
 		query = 'manistee,mi' 
-		response = MapService.get_coordinates(query)
+		response = LocationService.get_coordinates(query)
 		expect(response).to be_a Hash
     expect(response).to have_key(:results)
     results = response[:results][0]

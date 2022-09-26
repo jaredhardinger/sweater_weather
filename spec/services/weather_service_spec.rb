@@ -10,7 +10,7 @@ RSpec.describe "OpenWeather API Service" do
 	it 'gets a response with the correct attributes' do
 		lat = "44.24"
 		lon = "-82.32" 
-		response = ForecastService.get_forecast(lat, lon)
+		response = WeatherService.get_weather(lat, lon)
 		expect(response).to be_a Hash
 		expect(response).to have_key(:current)
 		current = response[:current]

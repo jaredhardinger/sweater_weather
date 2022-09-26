@@ -1,4 +1,4 @@
-class MapService
+class LocationService
   def self.get_coordinates(query)
     response = conn.get('/geocoding/v1/address') do |req|
       req.params['location'] = query
