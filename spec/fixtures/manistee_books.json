@@ -1,0 +1,520 @@
+{
+  "numFound": 43,
+  "start": 0,
+  "numFoundExact": true,
+  "docs": [
+    {
+      "key": "/works/OL12032082W",
+      "type": "work",
+      "seed": [
+        "/books/OL17615626M",
+        "/books/OL17718053M",
+        "/works/OL12032082W",
+        "/subjects/recreational_use",
+        "/subjects/outdoor_recreation",
+        "/subjects/rivers",
+        "/subjects/place:michigan",
+        "/subjects/place:manistee_national_forest",
+        "/subjects/place:manistee_national_forest_(mich.)",
+        "/authors/OL5196671A"
+      ],
+      "title": "Canoeist suggestions for stream management in the Manistee National Forest of Michigan",
+      "title_suggest": "Canoeist suggestions for stream management in the Manistee National Forest of Michigan",
+      "edition_count": 2,
+      "edition_key": [
+        "OL17615626M",
+        "OL17718053M"
+      ],
+      "publish_date": [
+        "1972"
+      ],
+      "publish_year": [
+        1972
+      ],
+      "first_publish_year": 1972,
+      "number_of_pages_median": 10,
+      "publish_place": [
+        "[Saint Paul, Minn.]"
+      ],
+      "oclc": [
+        "5471137"
+      ],
+      "contributor": [
+        "North Central Forest Experiment Station (Saint Paul, Minn.)",
+        "Hansen, Edward A."
+      ],
+      "last_modified_i": 1264132799,
+      "ebook_count_i": 0,
+      "ebook_access": "no_ebook",
+      "has_fulltext": false,
+      "public_scan_b": false,
+      "publisher": [
+        "North Central Forest Experiment Station, Forest Service, U.S. Dept. of Agriculture"
+      ],
+      "language": [
+        "eng"
+      ],
+      "author_key": [
+        "OL5196671A"
+      ],
+      "author_name": [
+        "Michael J. Solomon"
+      ],
+      "place": [
+        "Michigan",
+        "Manistee National Forest",
+        "Manistee National Forest (Mich.)"
+      ],
+      "subject": [
+        "Recreational use",
+        "Outdoor recreation",
+        "Rivers"
+      ],
+      "publisher_facet": [
+        "North Central Forest Experiment Station, Forest Service, U.S. Dept. of Agriculture"
+      ],
+      "place_key": [
+        "manistee_national_forest",
+        "manistee_national_forest_(mich.)",
+        "michigan"
+      ],
+      "subject_facet": [
+        "Outdoor recreation",
+        "Recreational use",
+        "Rivers"
+      ],
+      "_version_": 1735652767766151170,
+      "place_facet": [
+        "Manistee National Forest",
+        "Manistee National Forest (Mich.)",
+        "Michigan"
+      ],
+      "author_facet": [
+        "OL5196671A Michael J. Solomon"
+      ],
+      "subject_key": [
+        "outdoor_recreation",
+        "recreational_use",
+        "rivers"
+      ]
+    },
+    {
+      "key": "/works/OL1496150W",
+      "type": "work",
+      "seed": [
+        "/books/OL15973170M",
+        "/books/OL15278790M",
+        "/works/OL1496150W",
+        "/subjects/portage_lake_and_lake_superior_ship-canal_company",
+        "/subjects/place:lake_superior",
+        "/subjects/place:mich.)_portage_lake_(manistee_county",
+        "/subjects/place:portage_lake_(manistee_county_mich.)",
+        "/authors/OL159513A"
+      ],
+      "title": "Portage Lake and Lake Superior Ship-Canal Company",
+      "title_suggest": "Portage Lake and Lake Superior Ship-Canal Company",
+      "edition_count": 2,
+      "edition_key": [
+        "OL15973170M",
+        "OL15278790M"
+      ],
+      "publish_date": [
+        "1884",
+        "1973"
+      ],
+      "publish_year": [
+        1884,
+        1973
+      ],
+      "first_publish_year": 1884,
+      "number_of_pages_median": 427,
+      "publish_place": [
+        "Washington"
+      ],
+      "last_modified_i": 1345146842,
+      "ebook_count_i": 0,
+      "ebook_access": "no_ebook",
+      "has_fulltext": false,
+      "public_scan_b": false,
+      "publisher": [
+        "Sine nomine",
+        "U.S. G.P.O."
+      ],
+      "language": [
+        "eng"
+      ],
+      "author_key": [
+        "OL159513A"
+      ],
+      "author_name": [
+        "United States. Congress. House. Committee on Public Lands"
+      ],
+      "author_alternative_name": [
+        "United States Congress. House . Committee on the Public Lands",
+        "United States. Congress. House. Committee on the Public Lands.",
+        "United States. Congress. House. Committee on the Public Lands",
+        "United States. Congress. House. Committee on Public Lands."
+      ],
+      "place": [
+        "Lake Superior",
+        "Mich.) Portage Lake (Manistee County",
+        "Portage Lake (Manistee County, Mich.)"
+      ],
+      "subject": [
+        "Portage Lake and Lake Superior Ship-Canal Company"
+      ],
+      "publisher_facet": [
+        "Sine nomine",
+        "U.S. G.P.O."
+      ],
+      "place_key": [
+        "lake_superior",
+        "mich.)_portage_lake_(manistee_county",
+        "portage_lake_(manistee_county_mich.)"
+      ],
+      "subject_facet": [
+        "Portage Lake and Lake Superior Ship-Canal Company"
+      ],
+      "_version_": 1735655080489648130,
+      "place_facet": [
+        "Lake Superior",
+        "Mich.) Portage Lake (Manistee County",
+        "Portage Lake (Manistee County, Mich.)"
+      ],
+      "author_facet": [
+        "OL159513A United States. Congress. House. Committee on Public Lands"
+      ],
+      "subject_key": [
+        "portage_lake_and_lake_superior_ship-canal_company"
+      ]
+    },
+    {
+      "key": "/works/OL6058443W",
+      "type": "work",
+      "seed": [
+        "/books/OL13622067M",
+        "/books/OL17718841M",
+        "/works/OL6058443W",
+        "/subjects/forest_surveys",
+        "/subjects/forests_and_forestry",
+        "/subjects/statistics",
+        "/subjects/timber",
+        "/subjects/place:huron_national_forest",
+        "/subjects/place:manistee_national_forest",
+        "/subjects/place:michigan",
+        "/authors/OL1529804A"
+      ],
+      "title": "The forest resources of the Huron-Manistee national forests, 1993",
+      "title_suggest": "The forest resources of the Huron-Manistee national forests, 1993",
+      "edition_count": 2,
+      "edition_key": [
+        "OL13622067M",
+        "OL17718841M"
+      ],
+      "publish_date": [
+        "1997"
+      ],
+      "publish_year": [
+        1997
+      ],
+      "first_publish_year": 1997,
+      "number_of_pages_median": 40,
+      "publish_place": [
+        "St. Paul, Minn. (1992 Folwell Ave., St. Paul 55108)",
+        "St. Paul, Minn"
+      ],
+      "oclc": [
+        "38434684"
+      ],
+      "contributor": [
+        "North Central Forest Experiment Station (Saint Paul, Minn.)",
+        "Ingram, Rosalie",
+        "Ingram, Rosalie.",
+        "Ruppert, Forrest A",
+        "Ruppert, Forrest A."
+      ],
+      "last_modified_i": 1354101309,
+      "ebook_count_i": 0,
+      "ebook_access": "no_ebook",
+      "has_fulltext": false,
+      "public_scan_b": false,
+      "publisher": [
+        "U.S. Dept. of Agriculture, Forest Service, North Central Forest Experiment Station"
+      ],
+      "language": [
+        "eng"
+      ],
+      "author_key": [
+        "OL1529804A"
+      ],
+      "author_name": [
+        "David E. Haugen"
+      ],
+      "place": [
+        "Huron National Forest",
+        "Manistee National Forest",
+        "Michigan"
+      ],
+      "subject": [
+        "Forest surveys",
+        "Forests and forestry",
+        "Statistics",
+        "Timber"
+      ],
+      "publisher_facet": [
+        "U.S. Dept. of Agriculture, Forest Service, North Central Forest Experiment Station"
+      ],
+      "place_key": [
+        "huron_national_forest",
+        "manistee_national_forest",
+        "michigan"
+      ],
+      "subject_facet": [
+        "Forest surveys",
+        "Forests and forestry",
+        "Statistics",
+        "Timber"
+      ],
+      "_version_": 1735674179918757889,
+      "place_facet": [
+        "Huron National Forest",
+        "Manistee National Forest",
+        "Michigan"
+      ],
+      "author_facet": [
+        "OL1529804A David E. Haugen"
+      ],
+      "subject_key": [
+        "forest_surveys",
+        "forests_and_forestry",
+        "statistics",
+        "timber"
+      ]
+    },
+    {
+      "key": "/works/OL5381617W",
+      "type": "work",
+      "seed": [
+        "/books/OL2890611M",
+        "/works/OL5381617W",
+        "/subjects/history",
+        "/subjects/shipbuilding",
+        "/subjects/shipyards",
+        "/subjects/place:manistee",
+        "/subjects/place:manistee_(mich.)",
+        "/subjects/place:michigan",
+        "/authors/OL1247094A"
+      ],
+      "title": "Shipbuilding at Manistee",
+      "title_suggest": "Shipbuilding at Manistee",
+      "edition_count": 1,
+      "edition_key": [
+        "OL2890611M"
+      ],
+      "publish_date": [
+        "1979"
+      ],
+      "publish_year": [
+        1979
+      ],
+      "first_publish_year": 1979,
+      "number_of_pages_median": 43,
+      "lccn": [
+        "84116120"
+      ],
+      "publish_place": [
+        "Manistee, MI"
+      ],
+      "contributor": [
+        "Manistee County Historical Museum."
+      ],
+      "lcc": [
+        "VM-0299.60000000.H37 1979"
+      ],
+      "ddc": [
+        "338.4762380977462"
+      ],
+      "last_modified_i": 1604108353,
+      "ebook_count_i": 0,
+      "ebook_access": "no_ebook",
+      "has_fulltext": false,
+      "public_scan_b": false,
+      "publisher": [
+        "S. Harold"
+      ],
+      "language": [
+        "eng"
+      ],
+      "author_key": [
+        "OL1247094A"
+      ],
+      "author_name": [
+        "Steve Harold"
+      ],
+      "place": [
+        "Manistee",
+        "Manistee (Mich.)",
+        "Michigan"
+      ],
+      "subject": [
+        "History",
+        "Shipbuilding",
+        "Shipyards"
+      ],
+      "id_librarything": [
+        "431923"
+      ],
+      "publisher_facet": [
+        "S. Harold"
+      ],
+      "place_key": [
+        "manistee",
+        "manistee_(mich.)",
+        "michigan"
+      ],
+      "subject_facet": [
+        "History",
+        "Shipbuilding",
+        "Shipyards"
+      ],
+      "_version_": 1735673365597782017,
+      "place_facet": [
+        "Manistee",
+        "Manistee (Mich.)",
+        "Michigan"
+      ],
+      "lcc_sort": "VM-0299.60000000.H37 1979",
+      "author_facet": [
+        "OL1247094A Steve Harold"
+      ],
+      "subject_key": [
+        "history",
+        "shipbuilding",
+        "shipyards"
+      ],
+      "ddc_sort": "338.4762380977462"
+    },
+    {
+      "key": "/works/OL5313310W",
+      "type": "work",
+      "seed": [
+        "/books/OL2784123M",
+        "/works/OL5313310W",
+        "/subjects/church_history",
+        "/subjects/danish_americans",
+        "/subjects/frontier_and_pioneer_life",
+        "/subjects/history",
+        "/subjects/lutheran_church",
+        "/subjects/social_life_and_customs",
+        "/subjects/person:holger_rosenstand_(1849-1933)",
+        "/subjects/place:manistee",
+        "/subjects/place:manistee_(mich.)",
+        "/subjects/place:michigan",
+        "/authors/OL1211445A"
+      ],
+      "title": "From the land of the Great Lakes",
+      "title_suggest": "From the land of the Great Lakes",
+      "edition_count": 1,
+      "edition_key": [
+        "OL2784123M"
+      ],
+      "publish_date": [
+        "1981"
+      ],
+      "publish_year": [
+        1981
+      ],
+      "first_publish_year": 1981,
+      "number_of_pages_median": 118,
+      "lccn": [
+        "83209466"
+      ],
+      "publish_place": [
+        "Des Moines, Iowa"
+      ],
+      "lcc": [
+        "F--0574.00000000.M27 R67 1981"
+      ],
+      "ddc": [
+        "977.46"
+      ],
+      "last_modified_i": 1604035933,
+      "ebook_count_i": 0,
+      "ebook_access": "no_ebook",
+      "has_fulltext": false,
+      "public_scan_b": false,
+      "publisher": [
+        "Danish Interest Conference, Lutheran Church in America"
+      ],
+      "language": [
+        "eng"
+      ],
+      "author_key": [
+        "OL1211445A"
+      ],
+      "author_name": [
+        "Holger Rosenstand"
+      ],
+      "person": [
+        "Holger Rosenstand (1849-1933)"
+      ],
+      "place": [
+        "Manistee",
+        "Manistee (Mich.)",
+        "Michigan"
+      ],
+      "subject": [
+        "Church history",
+        "Danish Americans",
+        "Frontier and pioneer life",
+        "History",
+        "Lutheran Church",
+        "Social life and customs"
+      ],
+      "publisher_facet": [
+        "Danish Interest Conference, Lutheran Church in America"
+      ],
+      "person_key": [
+        "holger_rosenstand_(1849-1933)"
+      ],
+      "place_key": [
+        "manistee",
+        "manistee_(mich.)",
+        "michigan"
+      ],
+      "person_facet": [
+        "Holger Rosenstand (1849-1933)"
+      ],
+      "subject_facet": [
+        "Church history",
+        "Danish Americans",
+        "Frontier and pioneer life",
+        "History",
+        "Lutheran Church",
+        "Social life and customs"
+      ],
+      "_version_": 1735673342760845314,
+      "place_facet": [
+        "Manistee",
+        "Manistee (Mich.)",
+        "Michigan"
+      ],
+      "lcc_sort": "F--0574.00000000.M27 R67 1981",
+      "author_facet": [
+        "OL1211445A Holger Rosenstand"
+      ],
+      "subject_key": [
+        "church_history",
+        "danish_americans",
+        "frontier_and_pioneer_life",
+        "history",
+        "lutheran_church",
+        "social_life_and_customs"
+      ],
+      "ddc_sort": "977.46"
+    }
+  ],
+  "num_found": 43,
+  "q": "",
+  "offset": null
+}
