@@ -10,6 +10,6 @@ RSpec.describe 'Location PORO' do
     poro = Location.new(coordinates)
     expect(poro).to be_a(Location)
     expect(poro.lat).to eq(coordinates[:lat])
-    expect(poro.lng).to eq(coordinates[:lng])
+    expect(poro.lon).to eq(coordinates[:lon])
   end
 end

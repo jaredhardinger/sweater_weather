@@ -44,8 +44,8 @@ RSpec.describe 'Weather PORO' do
     end
 
     it 'creates a combined current, daily, hourly weather PORO' do
-      combined = Weather.new(@current, @daily, @hourly)
-      expect(combined).to be_a(Weather)
+      combined = Forecast.new(@current, @daily, @hourly)
+      expect(combined).to be_a(Forecast)
       expect(combined.current_weather).to be_a(CurrentWeather)
       expect(combined.daily_weather).to be_a(DailyWeather)
       expect(combined.hourly_weather).to be_a(HourlyWeather)
