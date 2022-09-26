@@ -1,6 +1,5 @@
 class BookSerializer
-  def self.serialize(forecast, location, books)
-    binding.pry
+  def self.book_search(location, forecast, books)
     {
       "data": {
         "id": "null",
@@ -8,34 +7,23 @@ class BookSerializer
         "attributes": {
           "destination": location,
           "forecast": {
-            "summary": ,
-            "temperature": 
+            "summary": forecast.conditions,
+            "temperature": "#{forecast.temperature} F" 
           },
-          "total_books_found": 172,
-          "books": [
+          "total_books_found": books.first.total_books,
+          "books": 
+            books.map do |book|
             {
               "isbn": [
-                "0762507845",
-                "9780762507849"
+                book.isbn
               ],
-              "title": "Denver, Co",
-              "publisher": [
-                "Universal Map Enterprises"
-              ]
-            },
-            {
-              "isbn": [
-                "9780883183663",
-                "0883183668"
-              ],
-              "title": "Photovoltaic safety, Denver, CO, 1988",
-              "publisher": [
-                "American Institute of Physics"
-              ]
-            },
-            { ... same format for books 3, 4 and 5 ... }
-          ]
+              "title": 
+                book.title,
+              "publisher": book.publisher
+            }
+            end 
         }
       }
     }
+  end
 end
