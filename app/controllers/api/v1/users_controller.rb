@@ -1,8 +1,9 @@
 class Api::V1::UsersController < ApplicationController
   def create
     binding.pry
-    user = UserFacade.register(user_params)
-    render json: UserSerializer.new(user), status: 201
+    new_user = UsersFacade.register(user_params)
+    new_user.errors.full_messages
+    render json: UsersSerializer.new(user), status: 201
   end
 
   private
