@@ -14,4 +14,13 @@ RSpec.describe 'Weather Facade' do
 
     expect(result).to be_a(Forecast)
   end
+
+	it 'returns the hourly weather for 48 hours' do 
+		lat = "44.24"
+		lon = "-82.32"
+		result = WeatherFacade.weather_at_destination(lat, lon)
+
+		expect(result).to include(HourlyWeather)
+		expect(result.count).to eq(48)
+	end
 end

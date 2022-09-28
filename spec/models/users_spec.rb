@@ -14,4 +14,13 @@ RSpec.describe Users, type: :model do
       expect(user.api_key).to_not be_empty
     end
   end
+
+  describe 'class methods' do 
+    it 'finds a user by api_key' do
+      user_attributes = { email: 'hi@example.com', password: 'passwerd', password_confirmation: 'passwerd' }
+      user = Users.create(user_attributes)
+      found_user = Users.find_api_key(user.api_key)
+      expect(user).to eq(found_user)
+    end
+  end
 end
