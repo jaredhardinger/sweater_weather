@@ -1,6 +1,6 @@
 class UsersFacade
-  def register(user)
+  def self.register(user)
     user[:email] = user[:email].downcase
-    new_user = User.create(user)
+    Users.create(user)
   end
 end
