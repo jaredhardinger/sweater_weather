@@ -8,6 +8,15 @@ class Api::V1::UsersController < ApplicationController
     end
   end
 
+  def login
+    user = UsersFacade.find_user(user_params)
+    if user
+      render json: UsersSerializer.new(user), status: 200
+    else
+      render json: { message: "Incorrect email/password" }, status: 401 
+    end
+  end
+
   private
   def user_params
     params.require(:user).permit(:email, :password, :password_confirmation)
