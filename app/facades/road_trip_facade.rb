@@ -29,24 +29,3 @@ class RoadTripFacade
     end
   end
 end
-
-
-# {
-#     "route": {
-#         "routeError": {
-#             "errorCode": 2,
-#             "message": ""
-#         }
-#     },
-#     "info": {
-#         "statuscode": 402,
-#         "copyright": {
-#             "imageAltText": "© 2022 MapQuest, Inc.",
-#             "imageUrl": "http://api.mqcdn.com/res/mqlogo.gif",
-#             "text": "© 2022 MapQuest, Inc."
-#         },
-#         "messages": [
-#             "We are unable to route with the given locations."
-#         ]
-#     }
-# }
