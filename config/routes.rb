@@ -5,6 +5,7 @@ Rails.application.routes.draw do
       resources :forecast, only: [:index]
       get "book-search", to: "book#index"
       post "users", to: "users#create"
+      post "sessions", to: "users#login"
     end
   end
 end
