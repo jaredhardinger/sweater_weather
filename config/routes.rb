@@ -6,6 +6,7 @@ Rails.application.routes.draw do
       get "book-search", to: "book#index"
       post "users", to: "users#create"
       post "sessions", to: "users#login"
+      post "road_trip", to: "road_trip#create"
     end
   end
 end
